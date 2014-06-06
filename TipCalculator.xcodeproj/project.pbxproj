@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		151902A219416A7800FC5681 /* tips.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 151902A119416A7800FC5681 /* tips.jpg */; };
+		151902A61941748000FC5681 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 151902A51941748000FC5681 /* Images.xcassets */; };
 		15B4712A1940046E00F5AD04 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15B471291940046E00F5AD04 /* UIKit.framework */; };
 		15B4712C1940046E00F5AD04 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15B4712B1940046E00F5AD04 /* Foundation.framework */; };
 		15B4712E1940046E00F5AD04 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15B4712D1940046E00F5AD04 /* CoreGraphics.framework */; };
@@ -36,6 +38,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		151902A119416A7800FC5681 /* tips.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = tips.jpg; path = ../../../tips.jpg; sourceTree = "<group>"; };
+		151902A51941748000FC5681 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		15B471251940046E00F5AD04 /* TipCalculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TipCalculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		15B471291940046E00F5AD04 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		15B4712B1940046E00F5AD04 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -123,6 +127,7 @@
 				15B471631940081300F5AD04 /* TipViewController.h */,
 				15B471641940081300F5AD04 /* TipViewController.m */,
 				15B471651940081300F5AD04 /* TipViewController.xib */,
+				151902A51941748000FC5681 /* Images.xcassets */,
 			);
 			path = TipCalculator;
 			sourceTree = "<group>";
@@ -131,6 +136,7 @@
 		15B471301940046E00F5AD04 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				151902A119416A7800FC5681 /* tips.jpg */,
 				15B471311940046E00F5AD04 /* TipCalculator-Info.plist */,
 				15B471321940046E00F5AD04 /* InfoPlist.strings */,
 				15B471351940046E00F5AD04 /* main.m */,
@@ -206,6 +212,7 @@
 		15B4711C1940046E00F5AD04 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastTestingUpgradeCheck = 0510;
 				LastUpgradeCheck = 0450;
 				ORGANIZATIONNAME = "Ashwini Satyanarayana";
 			};
@@ -233,6 +240,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				15B471341940046E00F5AD04 /* InfoPlist.strings in Resources */,
+				151902A61941748000FC5681 /* Images.xcassets in Resources */,
+				151902A219416A7800FC5681 /* tips.jpg in Resources */,
 				15B4713C1940046E00F5AD04 /* Default.png in Resources */,
 				15B4713E1940046E00F5AD04 /* Default@2x.png in Resources */,
 				15B471401940046E00F5AD04 /* Default-568h@2x.png in Resources */,
@@ -368,6 +377,8 @@
 		15B471591940046E00F5AD04 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TipCalculator/TipCalculator-Prefix.pch";
 				INFOPLIST_FILE = "TipCalculator/TipCalculator-Info.plist";
@@ -379,6 +390,8 @@
 		15B4715A1940046E00F5AD04 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TipCalculator/TipCalculator-Prefix.pch";
 				INFOPLIST_FILE = "TipCalculator/TipCalculator-Info.plist";
